@@ -1,0 +1,142 @@
+@charset "UTF-8";
+html {
+    font-size: 100%;
+}
+body {
+    font-family: "Noto Serif JP", serif;
+}
+.section-inner {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.main {
+    text-align: center;
+}
+/* header */
+
+.header {
+    background-color: #E7D7D4;
+    padding-top: 40px;
+}
+.header-logo {
+    margin: 0 auto;
+    width: 180px;
+}
+.header-nav {
+    margin-top: 40px;
+}
+.header-list {
+    display: flex;
+    justify-content: center;
+}
+.header-item + .header-item {
+    padding-left: 40px;
+}
+
+/* ｋｖ */
+.kv {
+    padding: 60px 0;
+    background-color: #E7D7D4;
+}
+.kv-img {
+    height: 480px;
+}
+.kv-img img {
+    height: 480px;
+    object-fit: cover;
+}
+
+/* concept */
+
+.section-wrap {
+    padding: 60px 0;
+}
+.section-ttl {
+    font-size: 24px;
+    font-weight: bold;
+}
+.concept-text {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.concept-content {
+    margin-top: 32px;
+}
+
+
+/* ITEM */
+
+.items {
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.item-img {
+    max-width: 512px;
+    width: 48%;
+}
+.item-text {
+    max-width: 520px;
+    width: 48%;
+    text-align: start;
+}
+.item-ttl {
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.item-price {
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+.item-main {
+    margin-bottom: 30px;
+}
+.item-btn {
+    font-weight: bold;
+    border: 1px solid #CCCCCC;
+    width: 160px;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    font-family: "Noto Sans JP",sans-serif;
+    border-radius: 40px;
+}
+
+/* shop */
+
+.shop-wrap {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: space-between
+}
+.shop-img {
+    max-width: 512px;
+    width: 48%;
+}
+.shop-text {
+    max-width: 520px;
+    width: 48%;
+}
+.shop-table {
+    border-bottom: 1px solid #000000;
+    font-size: 18px;
+    width: 100%;
+}
+.shop-raw {
+}
+.shop-head, .shop-date {
+    padding: 16px 0;
+}
+
+
+

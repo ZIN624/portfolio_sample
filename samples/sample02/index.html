@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>sample02</title>
+    <meta name="description" content="ブランドページを通してWebページの基本構造、レイアウトの組み方を身につけましょう">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-logo">
+            <img src="img/logo.png" alt="header-logo">
+        </h1>
+
+        <nav class="header-nav">
+            <ul class="header-list">
+                <li class="header-item"><a href="#">CONCEPT</a></li>
+                <li class="header-item"><a href="#">ITEM</a></li>
+                <li class="header-item"><a href="#">SHOP</a></li>
+                <li class="header-item"><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="kv">
+        <!-- ここ不安で確認 -->
+        <div class="kv-img section-inner">
+            <img src="img/kv.jpg" alt="きーびじゅ">
+        </div>
+    </div>
+
+    <main class="main">
+        <section class="concept section-wrap">
+            <div class="section-inner">
+                <h2 class="section-ttl">CONCEPT</h2>
+                <p class="concept-text">ここにしか無い上品なおしゃれを</p>
+                <p class="concept-content">歳を重ねてもおしゃれで居たい。いつでも自分らしくいるために、<br>
+                ハンドメイドでこだわり尽くした上品なアイテムをお届けします。</p>
+            </div>
+        </section>
+
+        <section class="items section-wrap">
+            <div class="section-inner">
+                <h2 class="section-ttl">ITEM</h2>
+
+                <div class="items-wrap">
+                    <div class="item">
+                        <div class="item-img">
+                            <img src="img/item01.jpg" alt="アイウェア">
+                        </div>
+                        <div class="item-text">
+                            <h3 class="item-ttl">アイウェア</h3>
+                            <p class="item-price">¥16,800(税込)</p>
+                            <p class="item-main">薄型軽量金属フレームが特徴。<br>
+                                ミラーレンズを採用した、UVカット99%</p>
+                            <a href="#" class="item-btn">購入する</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-img">
+                            <img src="img/item02.jpg" alt="エンゲージリング">
+                        </div>
+                        <div class="item-text">
+                            <h3 class="item-ttl">エンゲージリング</h3>
+                            <p class="item-price">¥67,200(税込)</p>
+                            <p class="item-main">一途な愛の象徴として一粒のダイヤモンドで仕上げたリング。</p>
+                            <a href="#" class="item-btn">購入する</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-img">
+                            <img src="img/item03.jpg" alt="イエローゴールドリング">
+                        </div>
+                        <div class="item-text">
+                            <h3 class="item-ttl">イエローゴールドリング</h3>
+                            <p class="item-price">¥21,200(税込)</p>
+                            <p class="item-main">アラぺスク風の凝ったエングレーピングを施したリング。</p>
+                            <a href="#" class="item-btn">購入する</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-img">
+                            <img src="img/item04.jpg" alt="ストーンブレスレット">
+                        </div>
+                        <div class="item-text">
+                            <h3 class="item-ttl">ストーンブレスレット</h3>
+                            <p class="item-price">¥14,200(税込)</p>
+                            <p class="item-main">様々なサンストーンで創り上げた明るい色彩がとても美しいストーンブレスレット。</p>
+                            <a href="#" class="item-btn">購入する</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="shop kv">
+            <div class="section-inner">
+                <h2 class="section-ttl">SHOP</h2>
+                <div class="shop-wrap">
+                    <div class="shop-img">
+                        <img src="img/shop.jpg" alt="SHOP">
+                    </div>
+
+                    <div class="shop-text">
+                        <table class="shop-table">
+                            <tr class="shop-raw">
+                                <th class="shop-head">住所</th>
+                                <td class="shop-date">東京都豊島区池袋3-13-5</td>
+                            </tr>
+
+                        <table class="shop-table">
+                            <tr class="shop-raw">
+                                <th class="shop-head">電話番号</th>
+                                <td class="shop-date">03-6912-5250</td>
+                            </tr>
+                        <table class="shop-table">
+                            <tr class="shop-raw">
+                                <th class="shop-head">営業時間</th>
+                                <td class="shop-date">10:00~18:00（火曜日を除く）</td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
