@@ -1,0 +1,31 @@
+img {
+    width: 100%;
+}
+.content-section {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content-card {
+    width: 45%;
+    margin: 10px 20px;
+    border: solid 1px #000;
+    padding: 1%;
+    text-align: center;
+}
+.content-card:hover {
+    transform: scale(1.01)
+}
+.content-card img {
+    margin-bottom: 20px;
+}
+.content-card p{
+    font-size: 24px;
+    border-top: solid 1px #898989;
+    padding: 10px;
+    display: inline-block;
+    width: 50%;
+}
